@@ -7,4 +7,115 @@
     android:layout_height="match_parent"
     tools:context=".Activity4">
 
+    <ImageView
+        android:id="@+id/img_chat"
+        android:layout_width="154dp"
+        android:layout_height="144dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="432dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/le_chat" />
+
+    <ImageView
+        android:id="@+id/img_chien"
+        android:layout_width="125dp"
+        android:layout_height="142dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintStart_toEndOf="@id/img_chat"
+        app:layout_constraintTop_toTopOf="@id/img_chat"
+        app:srcCompat="@drawable/le_chien" />
+
+<!--    <ImageView-->
+<!--        android:id="@+id/img_0"-->
+<!--        android:layout_width="98dp"-->
+<!--        android:layout_height="113dp"-->
+<!--        android:layout_marginStart="8dp"-->
+<!--        app:srcCompat="@drawable/i0"-->
+<!--        app:layout_constraintStart_toEndOf="@id/img_chien"-->
+<!--        app:layout_constraintTop_toTopOf="@id/img_chien" />-->
+
+
+<!--    <ImageView-->
+<!--        android:id="@+id/img_1"-->
+<!--        android:layout_width="98dp"-->
+<!--        android:layout_height="113dp"-->
+<!--        android:layout_marginTop="8dp"-->
+<!--        app:srcCompat="@drawable/i1"-->
+<!--        app:layout_constraintStart_toStartOf="@id/img_chat"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/img_chat" />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/img_2"-->
+<!--        android:layout_width="98dp"-->
+<!--        android:layout_height="113dp"-->
+<!--        android:layout_marginStart="8dp"-->
+<!--        app:srcCompat="@drawable/i2"-->
+<!--        app:layout_constraintStart_toEndOf="@id/img_1"-->
+<!--        app:layout_constraintTop_toTopOf="@id/img_1" />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/img_3"-->
+<!--        android:layout_width="98dp"-->
+<!--        android:layout_height="113dp"-->
+<!--        android:layout_marginStart="8dp"-->
+<!--        app:srcCompat="@drawable/i3"-->
+<!--        app:layout_constraintStart_toEndOf="@id/img_2"-->
+<!--        app:layout_constraintTop_toTopOf="@id/img_2" />-->
+
+
+<!--    <ImageView-->
+<!--        android:id="@+id/img_4"-->
+<!--        android:layout_width="98dp"-->
+<!--        android:layout_height="113dp"-->
+<!--        android:layout_marginTop="8dp"-->
+<!--        app:srcCompat="@drawable/i4"-->
+<!--        app:layout_constraintStart_toStartOf="@id/img_1"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/img_1" />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/img_5"-->
+<!--        android:layout_width="98dp"-->
+<!--        android:layout_height="113dp"-->
+<!--        android:layout_marginStart="8dp"-->
+<!--        app:srcCompat="@drawable/i5"-->
+<!--        app:layout_constraintStart_toEndOf="@id/img_4"-->
+<!--        app:layout_constraintTop_toTopOf="@id/img_4" />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/img_6"-->
+<!--        android:layout_width="98dp"-->
+<!--        android:layout_height="113dp"-->
+<!--        android:layout_marginStart="8dp"-->
+<!--        app:srcCompat="@drawable/i6"-->
+<!--        app:layout_constraintStart_toEndOf="@id/img_5"-->
+<!--        app:layout_constraintTop_toTopOf="@id/img_5" />-->
+
+
+<!--    <ImageView-->
+<!--        android:id="@+id/img_7"-->
+<!--        android:layout_width="98dp"-->
+<!--        android:layout_height="113dp"-->
+<!--        android:layout_marginTop="8dp"-->
+<!--        app:srcCompat="@drawable/i7"-->
+<!--        app:layout_constraintStart_toStartOf="@id/img_4"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/img_4" />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/img_8"-->
+<!--        android:layout_width="98dp"-->
+<!--        android:layout_height="113dp"-->
+<!--        android:layout_marginStart="8dp"-->
+<!--        app:srcCompat="@drawable/i8"-->
+<!--        app:layout_constraintStart_toEndOf="@id/img_7"-->
+<!--        app:layout_constraintTop_toTopOf="@id/img_7" />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/img_9"-->
+<!--        android:layout_width="98dp"-->
+<!--        android:layout_height="113dp"-->
+<!--        android:layout_marginStart="8dp"-->
+<!--        app:srcCompat="@drawable/i9"-->
+<!--        app:layout_constraintStart_toEndOf="@id/img_8"-->
+<!--        app:layout_constraintTop_toTopOf="@id/img_8" />-->
 </androidx.constraintlayout.widget.ConstraintLayout>
