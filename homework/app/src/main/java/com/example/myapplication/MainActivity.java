@@ -5,7 +5,6 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -34,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
         plusBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                calculateResult("+"); // to be implemented
+                calculateResult("+");
             }
         });
 
@@ -68,7 +67,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
+        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.btn2), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
